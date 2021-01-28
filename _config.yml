@@ -1,3 +1,6 @@
+remote_theme: arnolds/pineapple.git
+
+
 # User config
 author: "Pineapple"
 tagline: "Pineapple Certfied Jekyll Theme"
