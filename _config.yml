@@ -12,7 +12,7 @@ twitter: "https://twitter.com/"
 github: "https://github.com/"
 
 # Site config
-baseurl: "/pineapple"
+baseurl: "https://blaskjs.github.io"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
