@@ -1,6 +1,3 @@
-remote_theme: arnolds/pineapple.git
-
-
 # User config
 author: "Pineapple"
 tagline: "Pineapple Certfied Jekyll Theme"
@@ -12,7 +9,7 @@ twitter: "https://twitter.com/"
 github: "https://github.com/"
 
 # Site config
-baseurl: "blaskjs.github.io"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss
