@@ -3,8 +3,8 @@ html {
 }
 
 body {
-	background: $color-white;
-	color: $color-black;
+	background: $color-black;
+	color: $color-white;
 	font-family: $font-poppins;
 	font-size: 1.8em;
 	line-height: 1.6;
@@ -14,7 +14,7 @@ body {
 
 h1,
 .h1 {
-	color: $color-black;
+	color: $color-white;
 	font-size: 2.7rem;
 	font-weight: 600;
 	line-height: 1;
@@ -22,8 +22,8 @@ h1,
 }
 
 h2,
-.h2 {	
-	color: $color-silver-chalice;
+.h2 {
+	color: $color-white;
 	display: block;
 	font-family: $font-lekton;
     font-size: 1rem;
@@ -36,7 +36,7 @@ h2,
 
 h3,
 .h3 {
-	color: $color-black;
+	color: $color-white;
 	font-family: $font-poppins;
     font-size: 1.8rem;
     font-weight: 600;
@@ -47,16 +47,16 @@ h3,
 p {
 	margin: 0;
 }
-
+/* Header, Site Title */
 a {
-	color: $color-black;
+	color: $color-white;
 	text-decoration: none;
 }
 
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 img {
@@ -77,7 +77,7 @@ hr {
 }
 
 abbr[title] {
-	border-bottom: 1px dotted $color-black;
+	border-bottom: 1px dotted $color-white;
 	text-decoration: none;
 }
 
@@ -86,7 +86,7 @@ code {
 	border: 1px solid $color-silver-chalice;
 	border-radius: 3px;
 	font-family: $font-lekton;
-	font-size: 1.5rem;	
+	font-size: 1.5rem;
 	padding: .1rem .4rem;
 
 	var {
@@ -99,7 +99,7 @@ dl {
 
 	dt,
 	dd {
-		font-family: $font-lekton;		
+		font-family: $font-lekton;
 	}
 
 	dt {
@@ -113,9 +113,9 @@ dl {
 
 .responsive-table {
 	margin-bottom: 3rem;
-	
+
 	@media (max-width: $breakpoint-xsmall) {
-		display: block;	
+		display: block;
 		overflow-x: scroll;
 		max-width: $breakpoint-xsmall;
 
@@ -127,7 +127,7 @@ dl {
 }
 
 table {
-	border-collapse: collapse;	
+	border-collapse: collapse;
 	width: 100%;
 
 	thead {
@@ -137,7 +137,7 @@ table {
 		}
 	}
 
-	tbody > tr:nth-child(odd) > td, 
+	tbody > tr:nth-child(odd) > td,
 	tbody > tr:nth-child(odd) > th {
 		background: $color-white-sand;
 	}
