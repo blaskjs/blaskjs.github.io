@@ -1,0 +1,40 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="assets/css/lightbox.css" rel="stylesheet" />
+	<title>{{ site.author }} / {{ site.tagline }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="{{ site.keywords }}">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="intro">
+			<div class="container">
+				<h2>Email me.</h2>
+				<p>This is where you can email me.</p>
+			</div>
+		</section>
+		<div class="container">
+
+</div>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+	<script src="assets/js/lightbox-plus-jquery.js"></script>
+	<script>
+    lightbox.option({
+      'resizeDuration': 600,
+      'wrapAround': true,
+			'imageFadeDuration' : 10,
+			'showImageNumberLabel' : false,
+			'disableScrolling' : true
+    })
+	</script>
+</body>
+</html>

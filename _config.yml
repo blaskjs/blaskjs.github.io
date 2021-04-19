@@ -1,9 +1,10 @@
+host: 0.0.0.0
 # User config
-author: "Site Name"
+author: "Brian Bechtold"
 tagline: "Studio"
-description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
+description: "Welcome to my site, generic desicription text including meta refrences are located here. More coming soon."
 keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
+email: "myemail@example.com"
 linkedin: "https://www.linkedin.com/"
 twitter: "https://twitter.com/"
 github: "https://github.com/"

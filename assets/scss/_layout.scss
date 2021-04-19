@@ -1,7 +1,28 @@
+
+.navbar {
+	float: right;
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1;
+	li {
+		display: inline;
+		padding-left: 1rem;
+	}
+}
+
 .container {
 	display: block;
 	margin: 0 auto;
 	max-width: 70em;
+	padding: 0 3rem;
+	@include clearfix;
+}
+
+.containerImg {
+	display: block;
+	margin: 0 auto ;
+	max-width: 40em;
 	padding: 0 3rem;
 	@include clearfix;
 }
