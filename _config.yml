@@ -2,9 +2,9 @@ host: 0.0.0.0
 # User config
 author: "Brian Bechtold"
 tagline: "Studio"
-description: "Welcome to my site, generic desicription text including meta refrences are located here. More coming soon."
-keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "myemail@example.com"
+description: "Welcome to my site. I am a 3D artist and architectural visualizer primarily using Blender. Although the site is still under construction, feel free to reach out and explore what I have on display."
+keywords: "Architecture, Architectural Visualization, Rendering, Design"
+email: "bechtoldbrian7@gmail.com"
 linkedin: "https://www.linkedin.com/"
 twitter: "https://twitter.com/"
 github: "https://github.com/"
