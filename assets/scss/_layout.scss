@@ -1,4 +1,8 @@
 
+.dotLogo {
+	float: right;
+}
+
 .navbar {
 	float: right;
 	font-size: 1.4rem;
@@ -19,11 +23,12 @@
 	@include clearfix;
 }
 
-.containerImg {
+.containerProfile {
 	display: block;
-	margin: 0 auto ;
-	max-width: 40em;
-	padding: 0 3rem;
+	margin: 10 auto;
+	max-width: 20em;
+	padding-top: 6rem;
+	padding-bottom: 3rem;
 	@include clearfix;
 }
 
@@ -50,6 +55,8 @@
 
 .content {
 	background: $color-black;
+	background-image: linear-gradient(to left, $color-black, $color-charcoal);
+	background-size: 100%;
 	padding: 7rem 0 0;
 	margin-bottom: 31.24rem;
 	position: relative;
@@ -62,6 +69,7 @@
 		margin-bottom: 23.42rem;
 	}
 }
+
 
 .intro,
 .projects {
@@ -383,8 +391,6 @@
 		width: 33.33333%;
 	}
 }
-
-.contact,
 .follow {
 	margin-bottom: 3rem;
 }

@@ -15,7 +15,18 @@
 		<section class="intro">
 			<div class="container">
 				<h2>Email me.</h2>
-				<p>This will eventually contain an email form.</p>
+				<p id="input">bechtoldbrian7@gmail.com</p>
+				<script>
+                function copyToClipboard() {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById("input"));
+                    window.getSelection().removeAllRanges(); // clear current selection
+                    window.getSelection().addRange(range); // to select text
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();// to deselect
+                }
+        </script>
+				<button class="copy" onclick="copyToClipboard()" ><img src="\assets\images\copyicon.png"></button>
 			</div>
 		</section>
 		<div class="container">
@@ -25,6 +36,5 @@
 	{% include footer.html %}
 	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
-	</script>
 </body>
 </html>
